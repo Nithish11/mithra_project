@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Book Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="store">
+            <h1>Book Store</h1>
+            <div id="headerImage">
+                <img src="https://s22.postimg.cc/wqktmcdsx/3243335.jpg" alt="book logo" />
+            </div>
+            <div id="api-data-container">
+                <!-- Data from the API will be displayed here -->
+            </div>
+            <header id="homeSection">
+                <nav>
+                    <a href="#homeSection">Home</a>
+                    <a href="#aboutSection">Book Details</a>
+                    <a href="#genreSection">Shopping Cart</a>
+                    <!-- <a href="#gallerySection">Gallery</a> -->
+                    <a href="#contactSection">Contact Book Store</a>
+                    <hr style="color: red; margin: 20px;">
+                </nav>
+            </header>
+        </div>
+        <div class="tab">
+
+            <h2><strong>Book details</strong></h2>
+
+            <div id="bookDetails">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
