@@ -360,6 +360,12 @@ h6,
 .video.border {
     border-radius: 50% 20% / 10% 40%;
 }
+/*** logo ***/
+.navbar-logo {
+    width: 109px; /* Adjust the width as needed */
+    height: 108px; /* Maintain aspect ratio */
+    margin-left: -21px; /* Adjust the margin as needed */
+}
 
 .about {
     background: linear-gradient(rgb(255 255 255 / 65%), rgba(255, 255, 255, 0.8)), url(../img/background.jpg);
@@ -441,7 +447,7 @@ h6,
 
 /*** Programs Start ***/
 .program {
-    background: linear-gradient(rgba(255, 72, 128, 0.1), rgba(255, 72, 128, 0.1));
+    background:linear-gradient(rgb(195 67 228 / 25%), rgb(242 72 255 / 6%));
 }
 
 .program .program-item .program-img .program-rate {

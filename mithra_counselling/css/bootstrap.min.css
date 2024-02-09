@@ -575,7 +575,7 @@
     .container-md,
     .container-sm,
     .container {
-      max-width: 1320px;
+      max-width: 1425px;
     }
   }
   .row {
@@ -6897,7 +6897,7 @@
     background-color: #dc3545 !important;
   }
   .bg-light {
-    background-color: #ffecf2 !important;
+    background-color: #f6d6fcb0 !important;
   }
   .bg-dark {
     background-color: #393d72 !important;
